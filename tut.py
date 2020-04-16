@@ -13,6 +13,9 @@ print(var4+var5)
 print(int(var6)+var5)
 
 
+
+
+
 ''' 
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 we could not add because these are of different datatypes
@@ -24,3 +27,9 @@ int()   : int(var6)
 
 
 '''
+
+
+print(10*var1)
+print(10*var5)
+print(10*str(var5))
+print(10*"vamshi\n")
