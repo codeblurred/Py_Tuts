@@ -1,0 +1,15 @@
+print("enter your first  number :  ")
+
+inp_num = input()
+## here , the variable stored in inp_num is in form of a string
+
+print("you've entered", inp_num)
+print("when added with 10 ", int(inp_num)+10)
+
+
+###########Adding two numbers using the user input
+
+print("enter your second number : ")
+inp_num2 = input()
+
+print("sum of the 2 no.s that you've entered is :", int(inp_num)+int(inp_num2))
