@@ -1,0 +1,20 @@
+vowels
+['a', 'e', 'i', 'o', 'u']
+found = []
+len(found)
+0
+
+
+
+found.append('a')
+len(found)
+1
+found
+['a']
+found.append('e')
+found.append('i')
+found.append('o')
+found
+['a', 'e', 'i', 'o']
+len(found)
+
