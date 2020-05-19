@@ -18,3 +18,30 @@ found
 ['a', 'e', 'i', 'o']
 len(found)
 
+
+phrase = "Don't panic!"
+plist = list(phrase)
+
+for i in range(4):
+...     plist.pop()
+...     print(plist)
+...
+['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i', 'c']
+['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i']
+['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n']
+['D', 'o', 'n', "'", 't', ' ', 'p', 'a']
+
+plist.pop(0)
+'D'
+
+plist
+['o', 'n', "'", 't', ' ', 'p', 'a']
+
+plist.remove("'")
+plist
+['o', 'n', 't', ' ', 'p', 'a']
+
+plist.extend([plist.pop(),plist.pop()])
+plist
+['o', 'n', 't', ' ', 'a', 'p']
+
