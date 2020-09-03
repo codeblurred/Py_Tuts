@@ -3,7 +3,7 @@ This is from  headfirst python book .
 Also check the github about the commits to know more
 
 '''
-
+#this is a comment 
 from datetime import datetime, date
 import random
 import time
